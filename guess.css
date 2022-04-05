@@ -1,0 +1,71 @@
+.font-size {
+  font-size: 15px;
+}
+.font-size-guess {
+  padding-left: 30px;
+  font-size: 20px;
+  text-align: start;
+}
+
+.fntsize {
+  font-size: 30px;
+}
+
+.firstcon {
+  background-color: rgb(42, 55, 80);
+}
+
+.chckbtn {
+  background-color: rgb(42, 55, 80);
+  width: 50%;
+  height: 25%;
+}
+/* .btn-bg{
+    background-color: rgb(177, 57, 57);
+} */
+.borderclr {
+  border-color: rgb(42, 55, 80);
+}
+
+.guessbox {
+  text-align: center;
+  position: absolute;
+  bottom: 65%;
+  right: 25%;
+  padding: 20px;
+  width: 50%;
+  background-color: white;
+  border: 1px solid;
+  border-color: rgb(42, 55, 80);
+  border-radius: 5px;
+}
+
+.inputbox {
+  height: 300px;
+  background-color: white;
+  /* position: relative; */
+  margin-top: 120px;
+  border: 1px solid rgb(42, 55, 80);
+}
+
+.ziko {
+  animation: slideInFromTop 1s ease-in;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .chckbtn {
+    height: 30%;
+  }
+}
+/* position: absolute;
+  top: 100px;
+  right: 125px; */
